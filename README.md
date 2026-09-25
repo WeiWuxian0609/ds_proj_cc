@@ -8,9 +8,7 @@ A lightweight Python toolkit for *dataset profiling, statistical summaries, miss
 
 ```bash
 pip install ds-proj-cc
-
-
-```markdown
+```
 
 ## Usage
 
@@ -26,7 +24,8 @@ data = [
 print(profile(data))
 print(summarize(data))
 print(detect_anomalies(data))
-
+```
 
 ## Author
-# Chirantan Chakraborty
+
+**Chirantan Chakraborty**
