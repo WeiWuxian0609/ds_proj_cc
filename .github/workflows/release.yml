@@ -42,6 +42,9 @@ jobs:
     permissions:
       id-token: write
     steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
       - name: Download dist/
         uses: actions/download-artifact@v4
         with:
@@ -53,8 +56,6 @@ jobs:
 
       - name: Publish
         run: uv publish --index testpypi dist/*
-        env:
-          UV_PUBLISH_URL: https://test.pypi.org/legacy/
 
   publish-pypi:
     name: Publish to PyPI
