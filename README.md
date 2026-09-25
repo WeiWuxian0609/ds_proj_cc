@@ -1,6 +1,6 @@
 # ds-proj-cc
 
-**TDS Profiler**
+**DS Profiler**
 
 A lightweight Python toolkit for *dataset profiling, statistical summaries, missing-value detection, duplicate detection, and numerical anomaly detection.*
 
@@ -8,6 +8,9 @@ A lightweight Python toolkit for *dataset profiling, statistical summaries, miss
 
 ```bash
 pip install ds-proj-cc
+
+
+```markdown
 
 ## Usage
 
